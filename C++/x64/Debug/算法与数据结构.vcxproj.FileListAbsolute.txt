@@ -1,2 +1,3 @@
 C:\AAAKepler452B-G14\MyProject\算法与数据结构\x64\Debug\算法与数据结构.exe
 C:\AAAKepler452B-DellG3\AMyProjects\算法与数据结构\x64\Debug\算法与数据结构.exe
+C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\x64\Debug\算法与数据结构.exe

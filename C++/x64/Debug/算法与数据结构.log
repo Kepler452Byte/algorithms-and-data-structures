@@ -1,4 +1,7 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: 名为 802区间和.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第一章基础算法\802区间和.cpp, 第二章数据结构\802区间和.cpp。
-  849Dijkstra求最短路1.cpp
-C:\AAAKepler452B-DellG3\AMyProjects\算法与数据结构\第三章搜索与图论\849Dijkstra求最短路1.cpp(40,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\AAAKepler452B-DellG3\AMyProjects\算法与数据结构\第三章搜索与图论\849Dijkstra求最短路1.cpp(47,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Helloworld.cpp
+  785快速排序.cpp
+C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\第一章基础算法\785快速排序.cpp(16,44): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  正在生成代码...
+x64\Debug\802区间和.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  算法与数据结构.vcxproj -> C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\x64\Debug\算法与数据结构.exe
