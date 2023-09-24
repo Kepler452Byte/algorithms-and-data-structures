@@ -131,16 +131,146 @@
  Main.java
  */
 
-import java.io.*;
+//import java.io.*;
+//
+//public class Main {
+//    public static void main(String[] args)  {
+//        try {
+//            BufferedWriter out = new BufferedWriter(new FileWriter("runoob.txt"));
+//            out.write("菜鸟教程");
+//            out.close();
+//            System.out.println("文件创建成功！");
+//        } catch (IOException e) {
+//        }
+//    }
+//}
+
+/**8. 查看端口号
+ *
+ */
+//import java.io.IOException;
+//import java.net.InetSocketAddress;
+//import java.net.Socket;
+//import java.net.SocketAddress;
+//import java.net.SocketTimeoutException;
+//
+//
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        // 检测本地 80 端口
+//        log(isSocketAliveUitlitybyCrunchify("localhost", 7890));
+//
+//        // 检测本地 8080 端口
+//        log(isSocketAliveUitlitybyCrunchify("localhost", 8080));
+//
+//        // 检测本地 8081 端口
+//        log(isSocketAliveUitlitybyCrunchify("localhost", 8081));
+//
+//        // 检测 runoob.com 的 80 端口
+//        log(isSocketAliveUitlitybyCrunchify("runoob.com", 80));
+//
+//        // 检测 runoob.com 的 443 端口
+//        log(isSocketAliveUitlitybyCrunchify("runoob.com", 443));
+//
+//        // 检测 runoob.com 的 81 端口
+//        log(isSocketAliveUitlitybyCrunchify("runoob.com", 81));
+//    }
+//
+//    /**
+//     * 判断主机端口
+//     *
+//     * @param hostName
+//     * @param port
+//     * @return boolean - true/false
+//     */
+//    public static boolean isSocketAliveUitlitybyCrunchify(String hostName, int port) {
+//        boolean isAlive = false;
+//
+//        // 创建一个套接字
+//        SocketAddress socketAddress = new InetSocketAddress(hostName, port);
+//        Socket socket = new Socket();
+//
+//        // 超时设置，单位毫秒
+//        int timeout = 2000;
+//
+//        log("hostName: " + hostName + ", port: " + port);
+//        try {
+//            socket.connect(socketAddress, timeout);
+//            socket.close();
+//            isAlive = true;
+//
+//        } catch (SocketTimeoutException exception) {
+//            System.out.println("SocketTimeoutException " + hostName + ":" + port + ". " + exception.getMessage());
+//        } catch (IOException exception) {
+//            System.out.println(
+//                    "IOException - Unable to connect to " + hostName + ":" + port + ". " + exception.getMessage());
+//        }
+//        return isAlive;
+//    }
+//
+//    private static void log(String string) {
+//        System.out.println(string);
+//    }
+//
+//    private static void log(boolean isAlive) {
+//        System.out.println("是否真正在使用: " + isAlive + "\n");
+//    }
+//
+//}
+
+/**
+ * 9. 查看本机IP
+ */
+//import java.net.InetAddress;
+//
+//public class Main {
+//    public static void main(String[] args)
+//            throws Exception {
+//        InetAddress addr = InetAddress.getLocalHost();
+//        System.out.println("Local HostAddress:"+addr.getHostAddress());
+//        String hostname = addr.getHostName();
+//        System.out.println("Local host name: "+hostname);
+//    }
+//}
+
+/**
+ * 10. 获取远程文件大小
+ */
+//import java.net.URL;
+//import java.net.URLConnection;
+//
+//public class Main {
+//    public static void main(String[] args) throws Exception {
+//        int size;
+//        URL url = new URL("https://arxiv.org/pdf/2109.10830.pdf");
+//        URLConnection conn = url.openConnection();
+//        size = conn.getContentLength();
+//        if (size < 0)
+//            System.out.println("无法获取文件大小。");
+//        else
+//            System.out.println("文件大小为：" + size + " bytes");
+//        conn.getInputStream().close();
+//    }
+//}
+
+/**
+ * 11. 解析端口号
+ */
+import java.net.URL;
 
 public class Main {
-    public static void main(String[] args)  {
-        try {
-            BufferedWriter out = new BufferedWriter(new FileWriter("runoob.txt"));
-            out.write("菜鸟教程");
-            out.close();
-            System.out.println("文件创建成功！");
-        } catch (IOException e) {
-        }
+    public static void main(String[] args)
+            throws Exception {
+        URL url = new URL("https://arxiv.org/pdf/2109.10830.pdf");
+        System.out.println("URL 是 " + url.toString());
+        System.out.println("协议是 " + url.getProtocol());
+        System.out.println("文件名是 " + url.getFile());
+        System.out.println("主机是 " + url.getHost());
+        System.out.println("路径是 " + url.getPath());
+        System.out.println("端口号是 " + url.getPort());
+        System.out.println("默认端口号是 "
+                + url.getDefaultPort());
     }
 }
