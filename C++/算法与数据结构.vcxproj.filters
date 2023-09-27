@@ -162,6 +162,15 @@
     <ClCompile Include="第三章搜索与图论\858PRIM算法生成最小树.cpp">
       <Filter>源文件\第三章搜索与图论</Filter>
     </ClCompile>
+    <ClCompile Include="第三章搜索与图论\859Kruskal算法求最小生成树.cpp">
+      <Filter>源文件\第三章搜索与图论</Filter>
+    </ClCompile>
+    <ClCompile Include="第三章搜索与图论\860染色法判定二分图.cpp">
+      <Filter>源文件\第三章搜索与图论</Filter>
+    </ClCompile>
+    <ClCompile Include="第三章搜索与图论\861二分图的最大匹配.cpp">
+      <Filter>源文件\第三章搜索与图论</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="第一章基础算法\789数的范围.cpp">

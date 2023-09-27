@@ -1,8 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1116,5): warning MSB8027: 名为 802区间和.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 第一章基础算法\802区间和.cpp, 第二章数据结构\802区间和.cpp。
   FileName.cpp
-  Helloworld.cpp
   785快速排序.cpp
-C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第一章基础算法\785快速排序.cpp(16,44): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
   787归并排序.cpp
   791高精度加法.cpp
   792高精度减法.cpp
@@ -20,21 +18,23 @@ C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第一章基�
   843n皇后问题.cpp
   844走迷宫.cpp
   845八数码.cpp
+  842排列数字.cpp
   正在生成代码...
   正在编译...
-  842排列数字.cpp
   846树的重心.cpp
   847图中点的层次.cpp
   848有向图的拓扑序列.cpp
   849Dijkstra求最短路1.cpp
   850Dijkstra求最短路2.cpp
-C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第三章搜索与图论\850Dijkstra求最短路2.cpp(1,1): warning C4828: 文件包含在偏移 0x780 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\第三章搜索与图论\850Dijkstra求最短路2.cpp(1,1): warning C4828: 文件包含在偏移 0x780 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
   851spfa求最短路.cpp
-C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第三章搜索与图论\851spfa求最短路.cpp(1,1): warning C4828: 文件包含在偏移 0x667 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\第三章搜索与图论\851spfa求最短路.cpp(1,1): warning C4828: 文件包含在偏移 0x667 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
   852spfa判断负环.cpp
-C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第三章搜索与图论\852spfa判断负环.cpp(1,1): warning C4828: 文件包含在偏移 0x6c7 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\第三章搜索与图论\852spfa判断负环.cpp(1,1): warning C4828: 文件包含在偏移 0x6c7 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
   853有边数限制的最短路.cpp
   854Floyd求最短路.cpp
+  858PRIM算法生成最小树.cpp
+  859Kruskal算法求最小生成树.cpp
   154滑动窗口.cpp
   800数组元素的目标.cpp
   802区间和.cpp
@@ -44,9 +44,9 @@ C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第三章搜�
   831kmp.cpp
   835Trie树统计.cpp
   836合并集.cpp
-  837连通块中点的数量.cpp
   正在生成代码...
   正在编译...
+  837连通块中点的数量.cpp
   838堆排序.cpp
   839模拟堆.cpp
   840模拟散列(开放寻址法).cpp
@@ -55,4 +55,4 @@ C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\第三章搜�
   C++ STL模板.cpp
   正在生成代码...
 x64\Debug\802区间和.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-  算法与数据结构.vcxproj -> C:\AAAKepler452B-G14\MyProject\algorithms-and-data-structures\C++\x64\Debug\算法与数据结构.exe
+  算法与数据结构.vcxproj -> C:\AAAKepler452B-DellG3\AMyProjects\algorithms-and-data-structures\C++\x64\Debug\算法与数据结构.exe
