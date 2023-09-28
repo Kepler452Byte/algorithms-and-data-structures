@@ -176,6 +176,9 @@
     <ClCompile Include="第二章数据结构\840模拟散列表(拉链法).cpp" />
     <ClCompile Include="第二章数据结构\841字符串哈希.cpp" />
     <ClCompile Include="第二章数据结构\C++ STL模板.cpp" />
+    <ClCompile Include="第四章数学知识\866试除法判定质数.cpp" />
+    <ClCompile Include="第四章数学知识\868筛质数.cpp" />
+    <ClCompile Include="第四章数学知识\869试除法求约数.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="第一章基础算法\789数的范围.cpp" />
