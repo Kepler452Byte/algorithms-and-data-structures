@@ -22,6 +22,9 @@
     <Filter Include="源文件\第三章搜索与图论">
       <UniqueIdentifier>{4b19c0b0-8827-4274-8f36-5c9fb400daf6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第四章数学知识">
+      <UniqueIdentifier>{7612a471-6b40-4ecd-b07a-2e06404a4ff8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="第二章数据结构\154滑动窗口.cpp">
@@ -170,6 +173,15 @@
     </ClCompile>
     <ClCompile Include="第三章搜索与图论\861二分图的最大匹配.cpp">
       <Filter>源文件\第三章搜索与图论</Filter>
+    </ClCompile>
+    <ClCompile Include="第四章数学知识\866试除法判定质数.cpp">
+      <Filter>源文件\第四章数学知识</Filter>
+    </ClCompile>
+    <ClCompile Include="第四章数学知识\869试除法求约数.cpp">
+      <Filter>源文件\第四章数学知识</Filter>
+    </ClCompile>
+    <ClCompile Include="第四章数学知识\868筛质数.cpp">
+      <Filter>源文件\第四章数学知识</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
