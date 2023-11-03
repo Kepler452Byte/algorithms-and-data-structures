@@ -2,7 +2,7 @@
 //#include <algorithm>
 // 
 //using namespace std;
-
+//
 // const int N = 100010;
 //
 //int q[N];
@@ -94,7 +94,7 @@
 //	quick_sort(q, l, j);
 //	quick_sort(q, j + 1, r);
 //}
-// 
+ 
 // 
 
 

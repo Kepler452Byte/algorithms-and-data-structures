@@ -1,6 +1,6 @@
-#include  <iostream>
-
-using namespace std;
+//#include  <iostream>
+//
+//using namespace std;
 
 //const int N = 100010;
 //int q[N], tmp[N];
@@ -101,3 +101,66 @@ using namespace std;
 //
 //	return 0;
 //}
+
+#include <iostream>
+using namespace std;
+
+const int N = 100010;
+int n;
+int a[N];
+int temp[N];
+
+//void merge_sort(int a[], int l, int r) {
+//    //只剩一个元素的时候，已经有序，返回
+//    if (l >= r) return;
+//
+//    //寻找数组中点下标
+//    int mid = (l + r) >> 1;
+//    //递归给左半边排序
+//    merge_sort(a, l, mid);
+//    //递归给右半边排序
+//    merge_sort(a, mid + 1, r);
+//    //以下是合并排序好的两个数组
+//
+//    //k：遍历合并后的数组的下标
+//    int k = 0;
+//    //i:左半边数组的下标，j:右半边数组的下标
+//    int i = l, j = mid + 1;
+//    //左右半边都没遍历完
+//    while (i <= mid && j <= r) {
+//        //左边的元素小于右边的元素
+//        if (a[i] < a[j])
+//            //左边元素放如临时数组，并移动下标
+//            temp[k++] = a[i++];
+//        //否则，右边元素放入临时数组并移动下标 
+//        else temp[k++] = a[j++];
+//    }
+//    //如果左边数组有剩余，则放入临时数组
+//    while (i <= mid) temp[k++] = a[i++];
+//    //如果有边数组有剩余，则放入临时数组
+//    while (j <= r) temp[k++] = a[j++];
+//    //把临时数组中的元素拷贝至原数组
+//    k = 0;
+//    for (int i = l; i <= r; i++) {
+//        a[i] = temp[k++];
+//    }
+//
+//}
+
+//
+//
+//
+//int main() {
+//    //处理输入
+//    cin >> n;
+//    for (int i = 0; i < n; i++) {
+//        cin >> a[i];
+//    }
+//    //调用算法
+//    merge_sort(a, 0, n - 1);
+//    //输出到答案
+//    for (int i = 0; i < n; i++) {
+//        cout << a[i] << " ";
+//    }
+//}
+
