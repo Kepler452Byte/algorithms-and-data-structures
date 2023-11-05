@@ -1,6 +1,6 @@
-#include  <iostream>
-
-using namespace std;
+//#include  <iostream>
+//
+//using namespace std;
 //const int N = 100010;
 //int q[N];
 //
@@ -51,3 +51,40 @@ using namespace std;
 //
 //	return 0;
 //}
+
+
+#include <iostream>
+using namespace std;
+
+const int N = 100005;
+
+int n, q, x, a[N];
+
+int main()
+{
+	cin >> n >> q;
+	for (int i = 0; i < n; i++) cin >> a[i];
+
+	while (q--) {
+		cin >> x;
+		int l = 0, r = n - 1;
+		//Çó×ó±ßµÄl;
+		while (l < r) {
+			int mid = (l + r) >> 1;
+			if (a[mid] < x) l = mid + 1;
+			else r = mid;
+		}
+		if (a[l] != x) cout << "-1 -1" << endl;
+		int l1 = 0, r1 = n - 1;
+		while (l1 < r1) {
+			int mid = (l1 + r1 + 1) >> 1;
+			if (a[mid] <= x) l1 = mid;
+			else r = mid;
+		}
+		cout << l << l1 << endl;
+	}
+
+	return 0;
+}
+
+

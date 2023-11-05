@@ -102,13 +102,13 @@
 //	return 0;
 //}
 
-#include <iostream>
-using namespace std;
-
-const int N = 100010;
-int n;
-int a[N];
-int temp[N];
+//#include <iostream>
+//using namespace std;
+//
+//const int N = 100010;
+//int n;
+//int a[N];
+//int temp[N];
 
 //void merge_sort(int a[], int l, int r) {
 //    //只剩一个元素的时候，已经有序，返回
